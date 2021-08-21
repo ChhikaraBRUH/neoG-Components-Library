@@ -6,15 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!--1 WAY CSS STYLING
+         <style>body{
+        color: blue;
+    }</style> -->
+
+    <!-- 3 WAY CSS STYLING: External Linking to CSS Stylsheet -->
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <h1>chaitanya's component library</h1>
+    <h1 id="lib-heading">chaitanya's component library</h1>
+    <!--2 WAY CSS STYLING
+    <h1 style="color: blue;">chaitanya's component library</h1> -->
     <p>I am attending neog.camp and trying to make a component library which would make all my projects look good and
         consistent.</p>
     <hr>
 
-    <h2>@typography</h2>
+    <h2 class="sub-headings">@typography</h2>
 
     <h1>This is the biggest heading.</h1>
     <h2>This is the second biggest heading.</h2>
@@ -22,7 +31,7 @@
     <small>This is the small text.</small>
     <hr>
 
-    <h2>@containers</h2>
+    <h2 class="sub-headings">@containers</h2>
 
     <h3>fluid container</h3>
     <div>This is a fluid container and this will go till the end of the page.</div>
@@ -32,13 +41,13 @@
 
     <hr>
 
-    <h2>@links</h2>
+    <h2 class="sub-headings">@links</h2>
 
     <a href="/">Primary Link</a>
     <a href="/">Secondary Link</a>
     <hr>
 
-    <h2>@lists</h2>
+    <h2 class="sub-headings">@lists</h2>
 
     <h3>unordered list</h3>
     <ul>
@@ -63,7 +72,7 @@
 
     <hr>
 
-    <h2>@nav</h2>
+    <h2 class="sub-headings">@nav</h2>
     <nav>
         <div>IAmBrand</div>
         <div>
@@ -83,14 +92,14 @@
 
     <hr>
 
-    <h2>@header</h2>
+    <h2 class="sub-headings">@header</h2>
     <header>
         <img src="images/portfolio-header-img1.svg">
         <h1>heading inside hero</h1>
     </header>
     <hr>
 
-    <h2>@section</h2>
+    <h2 class="sub-headings">@section</h2>
     <section>
         <h3>white section</h3>
         <p>This will have white background.</p>
@@ -103,7 +112,7 @@
 
     <hr>
 
-    <h2>@footer</h2>
+    <h2 class="sub-headings">@footer</h2>
     <footer>
         <div>Some small heading inside footer.</div>
         <ul>

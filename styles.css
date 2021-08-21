@@ -1,0 +1,23 @@
+body{
+    color: red;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: cadetblue;
+}
+
+footer{
+    color: aquamarine;
+}
+
+#lib-heading{
+    color:yellowgreen
+}
+
+.sub-headings{
+    color: blue;
+}
