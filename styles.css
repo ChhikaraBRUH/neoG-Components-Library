@@ -1,23 +1,5 @@
-body{
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
-h1{
-    color: blueviolet;
-}
-
-h2{
-    color: cadetblue;
-}
-
-footer{
-    color: aquamarine;
-}
-
-#lib-heading{
-    color:yellowgreen
-}
-
-.sub-headings{
-    color: blue;
+body {
+    font-family: 'Poppins', sans-serif;
 }
