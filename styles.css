@@ -22,7 +22,8 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -34,15 +35,21 @@ hr {
 }
 
 .link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem auto;
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
     color: white;
+    border-radius: 2rem;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -71,12 +78,13 @@ hr {
     font-weight: bold;
 }
 
-.navigation .link {
-    color: white;
-}
-
 .navigation .nav-pills {
     text-align: right;
+    margin: 0.6rem 1rem;
+}
+
+.navigation .link {
+    color: white;
 }
 
 .navigation .link-active {
@@ -139,4 +147,22 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/* projects page */
+
+.highlight-box {
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    margin: 3rem auto;
+}
+
+.highlight-box h1 {
+    margin: 0.5rem;
+}
+
+.highlight-box p {
+    padding-bottom: 1rem;
 }
